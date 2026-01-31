@@ -1,0 +1,41 @@
+{
+  "name": "smtp-oauth-relay",
+  "version": "1.0.0",
+  "description": "SMTP to OAuth relay for Gmail API",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc  && node --watch dist/index.js",
+    "test": "node dist/test.js"
+  },
+  "keywords": [
+    "smtp",
+    "oauth",
+    "gmail",
+    "relay"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "google-auth-library": "^10.5.0",
+    "googleapis": "^144.0.0",
+    "mailparser": "^3.7.1",
+    "open": "^11.0.0",
+    "smtp-server": "^3.14.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^5.0.0",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^22.10.5",
+    "@types/nodemailer": "^7.0.9",
+    "typescript": "^5.7.3"
+  }
+}
