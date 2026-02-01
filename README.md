@@ -14,7 +14,7 @@ Your App → SMTP (Port 2525) → This Relay → OAuth 2.0 → Gmail API → Ema
 
 1. [Quick Start](#quick-start)
 2. [Prerequisites](#prerequisites)
-3. [Google Cloud Setup](#google-cloud-setup-detailed)
+3. [Google Cloud Setup](#google-cloud-setup)
 4. [Installation & Configuration](#installation--configuration)
 5. [Running the Relay](#running-the-relay)
 6. [Testing](#testing)
