@@ -1,0 +1,6 @@
+Brief Write-up
+The hardest part was setting up the Gmail API on Google Cloud Console, including creating a project, enabling the API, configuring the OAuth consent screen, and managing credentials securely. Handling OAuth2 authentication and integrating it with the send-test.sh script and npm test command required careful attention to detail.
+
+With more time, I would add support for optional parameters like CC and BCC fields and implement interactive prompts for user input to make the script more user-friendly. Additionally, I would improve error handling and logging to provide clearer feedback for issues like invalid credentials or API errors.
+
+I assumed the npm test command was already configured to handle Gmail API integration and send emails. I also assumed the script was for testing purposes, not production, where more robust security and features would be needed.
